@@ -1,0 +1,138 @@
+:root{
+    --oscuro:#1a1a1a;
+    --blanco:#fff;
+    --gris:#efefef;
+    --dorado:#ecd5a7;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    background-color: var(--oscuro);
+}
+
+h1, h2, h3, h4, h5, h6, .navbar-brand{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500 !important;
+    line-height: 1.5 !important;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.logo{
+    max-width: 50px;
+}
+
+.menu{
+    color: var(--blanco);
+}
+
+.texto-blanco{
+    color: var(--blanco);
+}
+
+.texto-oscuro{
+    color: var(--oscuro);
+}
+
+.bg-oscuro{
+    background-color: var(--oscuro);
+}
+
+.bg-claro{
+    background-color: var(--blanco);
+}
+
+.bg-gris{
+    background-color: var(--gris);
+}
+
+.bg-dorado{
+    background-color: var(--dorado);
+}
+
+.navbar{
+    min-height: 5rem;
+}
+
+.nav-link{
+    color: var(--blanco);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.nav-link:hover{
+    color: var(--blanco);
+}
+
+.text-gold{
+    color: var(--dorado) !important;
+}
+
+section{
+    padding: 6rem 0;
+}
+
+#slider{
+    padding: 0;
+}
+
+.mt-6{
+    margin-top: 4rem;
+}
+
+.badge{
+    font-weight: 500;
+    padding: 0.5rem 1.5rem;
+    line-height: 1.5;
+}
+
+.btn{
+    padding: .5rem 1.8rem;
+    border: 0.2rem;
+}
+
+.btn-secondary{
+    background-color: var(--oscuro);
+}
+
+.features:hover{
+    color: var(--blanco);
+}
+
+.features1:hover{
+    color: var(--oscuro);
+}
+
+.btn-primary{
+    background-color:var(--blanco);
+    color: var(--oscuro);
+    border-color: var(--oscuro);
+}
+
+.btn-primary:hover{
+    background-color:var(--blanco);
+    color: var(--oscuro);
+    border-color: var(--oscuro);
+}
+
+.blog-info{
+    bottom: 1rem;
+    left: 1.5rem;
+}
+
+.form-control{
+    padding: 1rem;
+    font-weight: 300;
+    border: 0;
+}
+
+.form-control:hover{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid var(--oscuro);
+}
